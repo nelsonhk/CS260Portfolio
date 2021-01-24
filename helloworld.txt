@@ -1,1 +1,2 @@
 Hello, World! It's me, Hannah.
+Today I am learning Git.
