@@ -65,12 +65,12 @@ ul {
 	list-style-type: none;
         margin: 0;
         padding: 0;
+	color: #EEEEEE;
 }
 
 .menuelement {
         display: inline;
-	color: #EEEEEE;
-        background-color: #414100;
+        background-color: #DAA520;
         font-size: 2.0em;
 }
 
