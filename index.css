@@ -96,5 +96,11 @@ hr {
 	margin-bottom: 20px;
 }
 
+.projects {
+	float = left;
+}
 
+.experience {
+	float = right;
+}
 
