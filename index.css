@@ -1,32 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
 	width: 100%
 }
 
-/*.menu {
-	list-style-type: none;
-  	margin: 0;
- 	padding: 0;
+a {
+	text-decoration: none;	/*FIXME*/
 }
-
-.menuelement {
-	display: inline;
-	background-color: #414100;
-	font-size: 2.0em;
-	color: #FFFFFF;
-}*/
 
 body {
 	color: #414100;
 	background-color: #EEEEEE;
 	font-size: 16px;
-	width: 100%
+	width: 100%;
 }
-
-/* .header {
-	font-style: italic;
-	font-size: 3.0em;
-}
-*/
 
 h1 {
 	font-size: 2.0em;
@@ -35,10 +26,16 @@ h1 {
 	display: inline;
 	border: 1px solid #414100;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h2 {
 	font-size: 1.6em;
+}
+
+h1, h2 {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 h1, h2, body {
@@ -55,6 +52,11 @@ h1, h2, body {
 	display: block;
 }
 
+p, ul, ol {
+	padding: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
 
 ul {
 	list-style-type: circle;
@@ -65,12 +67,12 @@ ul {
 	list-style-type: none;
         margin: 0;
         padding: 0;
+	color: #EEEEEE;
 }
 
 .menuelement {
         display: inline;
-	color: #EEEEEE;
-        background-color: #414100;
+        background-color: #DAA520;
         font-size: 2.0em;
 }
 
@@ -96,11 +98,25 @@ hr {
 	margin-bottom: 20px;
 }
 
-.projects {
-	float = left;
+.wedding-photos {
+	display: flex;
+	/*align-items: center;*/
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;	
 }
 
-.experience {
-	float = right;
+.photo {
+	width:200px;
+	margin:10px;
 }
 
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #404040; /* darker gray */
+    color: #F5F5F5; /* off-white */
+  }
+  h1 {
+    	color: #414100;
+    }
+}
