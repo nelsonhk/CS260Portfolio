@@ -97,4 +97,10 @@ hr {
 }
 
 
+.projects {
+	float = left;
+}
 
+.experience {
+	float = left;
+}
